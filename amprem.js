@@ -1,6 +1,3 @@
-// — Auto-generate akun Alight Motion Premium via alightmotion.qsr.web.id
-// Penggunaan: node amprem.js <amount>
-// Contoh:     node amprem.js 10
 
 const BASE = "https://api.internal.temp-mail.io/api/v3";
 const HEADERS = {
