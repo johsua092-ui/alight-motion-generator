@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://videocdn.cdnpk.net/videos/78c726c9-8f6c-44d9-97d8-a592c46bac4a/horizontal/thumbnails/large.jpg" alt="Alight Motion Generator" width="100%">
+<img src="https://static.wikia.nocookie.net/sfc/images/a/af/Alight_motion.png/revision/latest?cb=20241223065534" width="120">
 
 # Alight Motion Generator
 
