@@ -9,8 +9,6 @@ Generator sederhana berbasis JavaScript dengan sistem fallback.
 </div>
 
 
-<div align="center"><img src="https://videocdn.cdnpk.net/videos/78c726c9-8f6c-44d9-97d8-a592c46bac4a/horizontal/thumbnails/large.jpg" alt="Alight Motion Generator" width="100%">Alight Motion Generator
-
 Generator berbasis JavaScript untuk membuat dan memproses data terkait Alight Motion.
 
 ""JavaScript" (https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)" (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
