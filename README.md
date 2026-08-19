@@ -21,45 +21,34 @@ Generator sederhana berbasis JavaScript dengan sistem fallback.
 
 </div>
 
-Generator berbasis JavaScript untuk membuat dan memproses data Alight Motion.
+<div align="center">Alight Motion Generator
+
+Generator berbasis JavaScript untuk Alight Motion.
 
 </div>---
 
 Tentang
 
-Alight Motion Generator adalah project JavaScript sederhana yang dibuat untuk kebutuhan generator terkait Alight Motion.
+Alight Motion Generator adalah project berbasis JavaScript yang dibuat untuk menghasilkan output terkait Alight Motion.
 
-Project ini menggunakan Node.js sehingga dapat dijalankan langsung melalui terminal tanpa framework tambahan.
-
----
+Project ini menggunakan Node.js dan dapat dijalankan langsung melalui terminal.
 
 Fitur
 
-- Berbasis JavaScript
-- Menggunakan Node.js
-- Ringan dan sederhana
+- JavaScript ES6+
+- Node.js
+- Ringan
+- Tidak membutuhkan framework
 - Dapat dijalankan melalui terminal
-- Source code mudah dimodifikasi
-- Tidak membutuhkan framework frontend
-
----
+- Source code sederhana dan mudah dimodifikasi
 
 Persyaratan
 
-Pastikan sudah menginstall:
-
-- Node.js
-- Git
+Pastikan Node.js sudah terinstall.
 
 Cek versi Node.js:
 
 node -v
-
-Cek Git:
-
-git --version
-
----
 
 Instalasi
 
@@ -71,9 +60,7 @@ Masuk ke folder project:
 
 cd alight-motion-generator
 
-Tidak membutuhkan "npm install" jika tidak ada dependency tambahan.
-
----
+Tidak perlu menjalankan "npm install" karena project ini tidak menggunakan dependency npm tambahan.
 
 Penggunaan
 
@@ -81,44 +68,39 @@ Jalankan generator utama:
 
 node alightmotion.js
 
-Script alternatif:
+Script lainnya:
 
 node amprem.js
 
-atau:
-
 node amprems.js
 
----
+Gunakan script sesuai kebutuhan.
 
 Struktur Project
 
 alight-motion-generator/
-│
 ├── alightmotion.js
 ├── amprem.js
 ├── amprems.js
 └── README.md
 
-"alightmotion.js"
+alightmotion.js
 
 Script generator utama.
 
-"amprem.js"
+amprem.js
 
 Script generator alternatif.
 
-"amprems.js"
+amprems.js
 
 Script generator alternatif lainnya.
 
----
-
-Menjalankan di Termux
+Termux
 
 Project juga dapat dijalankan melalui Termux.
 
-Install Node.js:
+Install Node.js dan Git:
 
 pkg update
 pkg install nodejs git
@@ -128,36 +110,28 @@ Clone repository:
 git clone https://github.com/johsua092-ui/alight-motion-generator.git
 cd alight-motion-generator
 
-Kemudian jalankan:
+Jalankan:
 
 node alightmotion.js
 
----
-
 Troubleshooting
 
-Jika muncul error saat menjalankan script, pastikan Node.js sudah terinstall:
+Jika muncul error, pastikan Node.js sudah terinstall:
 
 node -v
 
-Pastikan juga berada di dalam folder repository:
-
-pwd
-
-Kemudian periksa file:
+Pastikan file project tersedia:
 
 ls
 
-Pastikan file berikut tersedia:
+File yang seharusnya tersedia:
 
 alightmotion.js
 amprem.js
 amprems.js
 README.md
 
-Jika error masih muncul, gunakan pesan error dari terminal untuk melakukan debugging.
-
----
+Jika error masih terjadi, periksa pesan error yang diberikan Node.js pada terminal.
 
 Kontribusi
 
@@ -167,12 +141,9 @@ Untuk membuat perubahan:
 
 git clone https://github.com/johsua092-ui/alight-motion-generator.git
 cd alight-motion-generator
-
-Buat branch:
-
 git checkout -b feature/nama-fitur
 
-Setelah melakukan perubahan:
+Setelah selesai:
 
 git add .
 git commit -m "feat: update generator"
@@ -180,23 +151,19 @@ git push origin feature/nama-fitur
 
 Kemudian buat Pull Request melalui GitHub.
 
----
-
 Disclaimer
 
 Project ini dibuat untuk tujuan pembelajaran, eksperimen, dan pengembangan.
 
-Gunakan project secara bertanggung jawab dan pastikan penggunaannya tidak melanggar ketentuan layanan atau hak pihak lain.
-
----
+Gunakan project secara bertanggung jawab dan pastikan penggunaannya sesuai dengan ketentuan layanan serta hak pihak lain.
 
 Repository
 
-"GitHub Repository" (https://reference-url-citation.invalid/0)
+<div align="center">"GitHub Repository" (https://github.com/johsua092-ui/alight-motion-generator)
 
----
+<br><br>
 
-<div align="center">Alight Motion Generator
+Alight Motion Generator
 
 Made with JavaScript and Node.js.
 
